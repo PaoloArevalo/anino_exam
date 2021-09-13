@@ -22,3 +22,7 @@
 -Its quite easy to add more in terms of adding symbols, adding paylines and editing the payouts.
 
 -The one thing Im not to sure about flexibility is the Reels since the reels is just an image that has box colliders and Symbol.cs(Set symbol enum and the Reel order) on each symbol, In order to add more you need to make a new image and add colliders and set Symbol.cs, but overall Im quite proud of the structure, if you wanna add a new symbol, you just add on the enum and SymbolPayouts.asset and payoutlines.
+
+-The Player pulls the slot machine knob and it stops the first reel then that reel will send an event that it stopped, the second reel will receive that event and stops as well same process until the last one, which it will send an event that all 5 reels has stopped then the three symbol detector scans and checks the symbols, which it sorts and stores it to themselves after that the slot machine will get those data and checks the payout lines and tally up the symbols which in turn checks if the player has won the line, after checking out the payout lines it will now reads the tallied up symbols and checks the SymbolPayouts to calculate the total money that the player has won, it also shows up the payout lines at the end.
+
+-I would make the reel more flexible and add more symbols. I also want to add particles and design because right now its looks like a boring slot machine compared to others and sounds as well.
