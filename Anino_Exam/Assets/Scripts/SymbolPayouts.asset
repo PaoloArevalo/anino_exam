@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f6b34cabbc2ea4fb887af498d7e163, type: 3}
+  m_Name: SymbolPayouts
+  m_EditorClassIdentifier: 
+  symbolPayouts:
+  - symbol: 0
+    threeOfaKind: 20
+    fourOfaKind: 40
+    FiveOfaKind: 60
+  - symbol: 1
+    threeOfaKind: 10
+    fourOfaKind: 20
+    FiveOfaKind: 30
+  - symbol: 2
+    threeOfaKind: 5
+    fourOfaKind: 10
+    FiveOfaKind: 15
+  - symbol: 3
+    threeOfaKind: 9
+    fourOfaKind: 18
+    FiveOfaKind: 27
+  - symbol: 4
+    threeOfaKind: 8
+    fourOfaKind: 16
+    FiveOfaKind: 24
